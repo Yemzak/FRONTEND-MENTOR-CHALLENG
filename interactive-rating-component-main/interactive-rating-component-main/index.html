@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>INTERACTIVE RATING COMPONENT</title>
+  <link rel="stylesheet" href="style.css" >
+  <script src="app.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" >
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin > 
+<link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet" > 
+</head>
+<body>
+  <div class = "rating-card">
+    <div class="rating-card__content">
+      <img src ="./assets/icon-star.svg" alt="star" class="star"> 
+      <h1 class = "rating-card__title"> How did we do? </h1>
+      <p class="rating-card__description">
+        Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!
+      </p>
+      <form class="form">
+        <div>
+          <div class = "form__radio-group">
+          <input 
+            type="radio" 
+            id="rate-1" 
+            class="form__radio-input"
+            name="rate-value"
+            value="1"
+            />
+            <label for="rate-1" class="form__radio-label">
+              <span class="form__radio-button">
+                <div>1</div>
+              </span>
+            </label>
+        </div>
+        <div class = "form__radio-group">
+          <input 
+            type="radio" 
+            id="rate-2" 
+            class="form__radio-input"
+            name="rate-value"
+            value="2"
+            />
+            <label for="rate-2" class="form__radio-label">
+              <span class="form__radio-button">
+                <div>2</div>
+              </span>
+            </label>
+        </div> 
+        <div class="form__radio-group">
+          <input 
+            type="radio" 
+            id="rate-3" 
+            class="form__radio-input"
+            name="rate-value"
+            value="3"
+            />
+            <label for="rate-3" class="form__radio-label">
+              <span class="form__radio-button">
+                <div>3</div>
+              </span>
+            </label>
+        </div> <div class = "form__radio-group">
+          <input 
+            type="radio" 
+            id="rate-4" 
+            class="form__radio-input"
+            name="rate-value"
+            value="4"
+            />
+            <label for="rate-4" class="form__radio-label">
+              <span class="form__radio-button">
+                <div>4</div>
+              </span>
+            </label>
+        </div> <div class = "form__radio-group">
+          <input 
+            type="radio" 
+            id="rate-5" 
+            class="form__radio-input"
+            name="rate-value"
+            value="5"
+            />
+            <label for="rate-5" class="form__radio-label">
+              <span class="form__radio-button">
+                <div>5</div>
+              </span>
+            </label>
+        </div>
+        </div>
+        <button class="form__button" type="submit">Submit</button>
+        
+      </form>
+    </div>
+      <!-- <div class = "thank-you">
+    <img src="./assets/illustration-thank-you.svg" alt="thankyou"
+    class="thank-you-img"> />
+    <p class="result">You selected 4 out of 5 </p>
+    <h1 class="thank-you__title">Thank you!</h1>
+    <p class="thank-you__description">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+  </div> -->
+  </div>
+</body>
+</html>
