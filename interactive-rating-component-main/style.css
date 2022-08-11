@@ -125,15 +125,15 @@ body {
 }
 
 .form__button {
- width: 100%;
- padding: 12px 20px;
- border-radius: 20px;
- border: none;
- font-size: 18px;
- cursor: pointer;
- background-color: var(--color-primary);
- color: var(--color-white);
- transition: background-color 0.2s, color 0.2s;   
+    width: 100%;
+    padding: 12px 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    transition: background-color 0.2s, color 0.2s;   
 }
 
 .form__button:hover{

@@ -24,7 +24,7 @@ body{
     grid-template-columns: 1fr 1fr;
     border-radius: 15px;
     overflow: hidden;
-    margin: 2rem;
+    margin: 3rem;
 }
 
 .img-component img {
